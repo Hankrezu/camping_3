@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #faf4ee;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* start header */
+.header {
+    background-color: #f8e1db;
+    padding: 10px 50px;
+}
+
+.header_logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.header_menu {
+    margin-top: 10px;
+}
+
+.header_menu li {
+    display: inline;
+    margin-right: 30px;
+}
+
+/* end header */
+
+/* start slide */
+.slide {
+    background-image: url('./image/BG.png');
+    background-position: center;
+    background-size: cover;
+
+    height: 750px;
+    z-index: 2;
+}
+
+/* end silde */
+
+/* start activities */
+.activities {
+    padding: 40px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.activities_content {
+    color: #8d8d8d;
+}
+
+/* end activities */
+
+/* start listcard */
+.listcard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.listcard .card_item {
+    width: 320px;
+
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px
+}
+
+.listcard .card_item .card_item_img {
+    position: relative;
+
+    background-image: url(./image/product1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 10px;
+    height: 150px;
+}
+
+.listcard .card_item .img_2 {
+    background-image: url(./image/product4.png);
+}
+
+.listcard .card_item .img_3 {
+    background-image: url(./image/product5.png);
+}
+
+.listcard .card_item .card_item_img .card_item_icon {
+    color: #e76f51;
+    padding: 7px;
+    background-color: rgba(245, 245, 245, 0.7);
+
+    border-radius: 5px;
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.listcard .card_item .card_item_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 10px;
+    gap: 15px;
+}
+
+.listcard .card_item .card_item_content .card_item_button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    background-color: #e8e8e8;
+    color: #8d8d8d;
+    font-weight: 500;
+}
+
+.listcard .card_item .card_item_content h4 {
+    color: #3a3735;
+}
+
+.listcard .card_item .card_item_content p {
+    color: #969696;
+    text-align: center;
+}
+
+/* end listcard */
+
+/* start viewall */
+.view_all {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.view_all .view_all_button {
+    width: 150px;
+    height: 35px;
+    border: 2px solid #e76f51;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #e76f51;
+    font-weight: 500;
+}
+
+/* end viewall */
+
+/* start download */
+.download {
+    display: flex;
+    height: 350px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #f8e1db;
+}
+
+.download .download_img {
+    width: 45%;
+    height: 100%;
+
+    background-image: url(./image/mask.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.download .download_img img {
+    height: 90%;
+}
+
+.download .download_content {
+    padding: 60px;
+    width: 55%;
+}
+
+.download .download_content .download_content_title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #8d8e8d;
+}
+
+.download .download_content .download_content_link {
+    padding-top: 20px;
+    display: flex;
+    font-weight: bold;
+    color: #8d8d8d;
+}
+
+.download .download_content .download_content_link .download_link img {
+    padding-top: 15px;
+}
+
+.download .download_content .download_content_link .download_social_link i {
+    padding-top: 15px;
+    font-size: 30px;
+    color: #e76f51;
+}
+
+/* end download */
+
+/* start footer */
+.footer {
+    margin-top: 100px;
+    background-color: #f8e1db;
+    padding: 90px 50px 50px 50px;
+    border-radius: 60px 60px 0 0;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.footer .footer_right {
+    position: absolute;
+    bottom: 10px;
+}
+
+.footer .footer_info {
+    height: 90%;
+    width: 30%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer_menu {
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .footer_menu li {
+    padding-top: 15px;
+}
+
+/* end footer */
