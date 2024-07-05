@@ -216,7 +216,7 @@ ul {
 .footer {
     margin-top: 100px;
     background-color: #f8e1db;
-    padding: 90px 50px 50px 50px;
+    padding: 90px 50px 100px 50px;
     border-radius: 60px 60px 0 0;
     display: flex;
     justify-content: space-around;
@@ -225,7 +225,7 @@ ul {
 
 .footer .footer_right {
     position: absolute;
-    bottom: 10px;
+    bottom: 40px;
 }
 
 .footer .footer_info {
